@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/CLion codes/Lab2/COne.cpp
+COne.h
+D:/CLion codes/Lab2/COne.h
+iostream
+-
+string
+-
+cstring
+-
+windows.h
+-
+
+D:/CLion codes/Lab2/COne.h
+
+D:/CLion codes/Lab2/CTwo.h
+string
+-
+COne.h
+D:/CLion codes/Lab2/COne.h
+
+D:/CLion codes/Lab2/main.cpp
+iostream
+-
+string
+-
+CTwo.h
+D:/CLion codes/Lab2/CTwo.h
+COne.h
+D:/CLion codes/Lab2/COne.h
+windows.h
+-
+
