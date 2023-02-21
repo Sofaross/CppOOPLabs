@@ -1,6 +1,0 @@
-cmake_minimum_required(VERSION 3.20)
-project(Laba5_2)
-
-set(CMAKE_CXX_STANDARD 20)
-
-add_executable(Laba5_2 main.cpp Arr.inl Arr.h)
